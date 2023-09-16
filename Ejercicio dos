@@ -1,0 +1,18 @@
+# Definir la primera función para calcular el cuadrado de un número.
+def cuadrado_de_numero():
+    numero = int(input("Ingresa un número entero: "))
+    cuadrado = numero ** 2
+    print(f"El cuadrado de {numero} es: {cuadrado}")
+
+# Definir la segunda función para calcular el producto de dos números.
+def producto_de_numeros():
+    numero1 = float(input("Ingresa el primer número: "))
+    numero2 = float(input("Ingresa el segundo número: "))
+    producto = numero1 * numero2
+    print(f"El producto de {numero1} y {numero2} es: {producto}")
+
+# Llamar a la primera función.
+cuadrado_de_numero()
+
+# Llamar a la segunda función.
+producto_de_numeros()
